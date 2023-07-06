@@ -1,3 +1,36 @@
-.container{
-    color: powderblue;
+*{
+    margin: 0px;
+    padding: 0px;
 }
+
+.bar-logo{
+    width: 200px;
+}
+
+.menu-container{
+    background-color: rgb(60, 51, 51);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    color: aliceblue;
+}
+
+
+
+.menu-list{
+    list-style: none;
+    display: flex;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.list-1{
+    padding: 4px;
+    margin-right: 10px;
+}
+
+.list-1:hover{
+    color:aqua;
+}
+
