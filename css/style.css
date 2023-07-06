@@ -34,3 +34,35 @@
     color:aqua;
 }
 
+.banner-img{
+    height: 300px;
+    width: 300px;
+}
+
+.body-1{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    background-image: url("/img/background.png"),
+    linear-gradient(45deg, rgb(32, 32, 32), rgb(45, 32, 32));
+
+}
+
+.left-text{
+    color: white;
+}
+
+.discription{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+.explore-more{
+    background-color: red;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    color: aliceblue;
+}
